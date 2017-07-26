@@ -26,7 +26,6 @@ namespace SCBasics.AuditTrail.ExtensionMethods
             return Sitecore.Context.Site;
         }
 
-        //Copied from mercury
         public static SiteInfo GetSiteInfo(this Item item)
         {
             List<SiteInfo> sites = SiteContextFactory.Sites;
